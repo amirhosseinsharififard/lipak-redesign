@@ -1,0 +1,55 @@
+
+.links{
+  display: flex;
+
+}
+.links a {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 4px 2px;
+  word-spacing: normal;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #f5f5ff;
+
+  padding: .3rem ;
+  border-radius: 12px;
+}
+.links a span{
+  white-space: nowrap;
+  font-size: 15px;
+  margin-left: 1rem;
+}
+.links a svg{
+  width: 24px;
+  height: 24px;
+}
+
+.links a:nth-child(1){
+  background-color: #059bf2;
+  color: white;
+
+}
+.links a:nth-child(1) svg{
+background-color: white;
+border-radius: 5px;
+color: black;
+}
+.image{
+  MIN-width: 145px;
+  height: 32px;
+}
+
+.links_menu div a{
+  color:#2c2c54;
+  white-space: nowrap;
+
+
+}
+.links_menu div a:first-child{
+  color:#f4561b;
+}
+.links_menu div a:hover{
+  color: #f4561b;
+}
