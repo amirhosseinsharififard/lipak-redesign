@@ -301,7 +301,7 @@ const Footer = () => {
 
           <div className=' px-3  text-right  flex-[1]'>
             <h3 className='font-bold text-base'>درباره لیپک</h3>
-            <p className={`text-xs text-[#36405a] text-justify text-right `}>
+            <p className={`text-xs text-[#36405a]  text-right `}>
               لیپک از سال 1399 فعالیت خود را به صورت تخصصی در زمینه لوازم
               دیجیتال شروع کرد. شعار لیپک یک قدم جلوتر است، به این معنا که لیپک
               تلاش می‌کند تا خدمات خود را نسبت به رقبا با کیفیت بهتری ارائه کند.
