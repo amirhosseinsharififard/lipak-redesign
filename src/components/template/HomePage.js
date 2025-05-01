@@ -1,5 +1,6 @@
 import AmazingOffers from "../module/AmazingOffers";
 import Category from "../module/Category";
+import Details from "../module/Details";
 import SpecialOffers from "../module/SpecialOffers";
 
 const HomePage = () => {
@@ -8,7 +9,8 @@ const HomePage = () => {
       {/* <AmazingOffers /> */}
       {/* <SpecialOffers /> */}
       <div className='bg-[#fff]'>
-        <Category />
+        {/* <Category /> */}
+        <Details />
       </div>
     </div>
   );
